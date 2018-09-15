@@ -1,8 +1,8 @@
 package model;
 
 public class Receipe {
-	private Long receipeId;
-	private String receipeName;
+	public Long receipeId;
+	public String receipeName;
 
 	public Receipe(Long receipeId, String receipeName) {
 		this.receipeId = receipeId;
